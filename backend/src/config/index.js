@@ -3,7 +3,7 @@ const path = require('path');
 const config = {
   port: process.env.PORT || 3001,
   nodeEnv: process.env.NODE_ENV || 'development',
-  openrouterApiKey: process.env.OPENROUTER_API_KEY || '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',
+  openrouterApiKey: process.env.OPENROUTER_API_KEY || '',
   agentsPath: path.resolve(__dirname, process.env.AGENTS_PATH || '../../../agents'),
   defaultModel: process.env.DEFAULT_MODEL || 'qwen/qwen3-14b:free',
   openrouterBaseUrl: 'https://openrouter.ai/api/v1',

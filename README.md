@@ -65,8 +65,10 @@ A comprehensive full-stack application featuring 37 specialized AI agents across
    cd backend
    npm install
    
-   # Add your OpenRouter API key to src/config/index.js
-   # OPENROUTER_API_KEY: 'your-api-key-here'
+   # Copy environment template and add your API key
+   cp .env.example .env
+   # Edit .env and add your OpenRouter API key:
+   # OPENROUTER_API_KEY=your-actual-api-key-here
    
    npm run dev
    ```
