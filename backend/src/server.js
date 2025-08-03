@@ -1,6 +1,9 @@
 const express = require('express');
 const path = require('path');
 
+// Load environment variables
+require('dotenv').config();
+
 // Import configuration and utilities
 const config = require('./config');
 const { applyMiddleware } = require('./middleware');
